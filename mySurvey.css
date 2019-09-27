@@ -1,52 +1,55 @@
 #title {
-    font-size: 32px;
+  font-size: 32px;
 }
 
 html,
 body {
   background-color: #9ac3eb;
   text-align: center;
-  font-family: 'Raleway', Helvetica, sans-serif;
+  font-family: "Raleway", Helvetica, sans-serif;
   min-width: 320px;
 }
 
 .input-field {
-    height: 30px;
-    width: 280px;
-    padding: 5px;
-    margin: 10px;
-    border: 1px solid #c0c0c0;
-    border-radius: 2px;
-  }
+  height: 30px;
+  width: 280px;
+  border: 2px solid #b38686;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 10px;
+}
 
-  #submit {
-    background-color: #49cf5b;
-    border-radius: 4px;
-    color: white;
-    font-size: 1em;
-    height: 35px;
-    width: 90px;
-    margin: 10px;
-    border: 0px solid;
-  }
-  #dropdown {
-    height: 35px;
-    width: 140px;
-    padding: 5px;
-    margin: 10px;  
-    margin-top: 15px;
-    border: 1px solid #c0c0c0;
-    border-radius: 2px;
-    font-size: 16px;
-  }
-  .radio, .checkbox {
-    position: relative;
-    left: -43px;
-    margin-left: 10px;
-    display: block;
-    padding-bottom: 10px;
-  }
-  
-  #comments {
-      height: 50px;
-  }
+#submit {
+  background-color: #49cf5b;
+  border-radius: 4px;
+  width: 90px;
+  margin: 10px;
+  border: 0px solid;
+  color: white;
+  font-size: 1em;
+  height: 35px;
+}
+#dropdown {
+  height: 35px;
+  width: 140px;
+  border: 2px solid #c0c0c0;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 5px;
+  margin: 10px;
+}
+.radio {
+  left: -43px;
+  padding: 0 0 10px 0;
+}
+.checkbox {
+  position: relative;
+  left: -43px;
+  margin-left: 10px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+#comments {
+  height: 50px;
+}
