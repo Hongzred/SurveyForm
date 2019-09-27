@@ -1,7 +1,7 @@
 ## Objective
-# Practice Building Survey Form (HW3)
+### Practice Building Survey Form
 
-# a survey form that is functionally similar to this: https://codepen.io/freeCodeCamp/full/VPaoNP.
+### a survey form that is functionally similar to this: https://codepen.io/freeCodeCamp/full/VPaoNP.
 
 ## User Stories
 - [x] **User Story #1**: I can see a title with id="title"in H1 sized text.
