@@ -13,7 +13,7 @@
     </p>
     <form id="survey-form">
       <div>
-        <lable id="name-label"> Email </lable>
+        <lable id="name-label" for="name"> Name </lable>
         <input
           id="name"
           type="text"
@@ -23,7 +23,7 @@
         />
       </div>
       <div>
-        <lable id="email-label"> Email </lable>
+        <lable id="email-label" for="email"> Email </lable>
         <input
           id="email"
           type="email"
@@ -33,7 +33,7 @@
         />
       </div>
       <div>
-        <lable id="number-label"> Number </lable>
+        <lable id="number-label" for="number"> Number </lable>
         <input
           id="number"
           type="number"
@@ -85,6 +85,13 @@
           </li>
         </ul>
       </div>
+      <div class="rightTab">
+            <ul id="preferences" style="list-style: none;">
+              <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">checkBox1</label></li>
+              <li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">checkBox1</li>
+              <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">checkBox1</label></li>
+            </ul>
+          </div>
       <div>
         <textarea
           id="comments"
