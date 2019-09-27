@@ -4,7 +4,7 @@
 
 html,
 body {
-  background-color: #a9d7d1;
+  background-color: #9ac3eb;
   text-align: center;
   font-family: 'Raleway', Helvetica, sans-serif;
   min-width: 320px;
@@ -15,6 +15,26 @@ body {
     width: 280px;
     padding: 5px;
     margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+  }
+
+  #submit {
+    background-color: #49cf5b;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    height: 35px;
+    width: 90px;
+    margin: 10px;
+    border: 0px solid;
+  }
+  #dropdown {
+    height: 35px;
+    width: 140px;
+    padding: 5px;
+    margin: 10px;  
+    margin-top: 15px;
     border: 1px solid #c0c0c0;
     border-radius: 2px;
   }
