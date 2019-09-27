@@ -1,12 +1,49 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="mySurvey.css">
-</head>
-<body>
+    <link rel="stylesheet" href="mySurvey.css" />
+  </head>
+  <body>
     <h1 id="title">Hello World</h1>
-</body>
+    <p id="description">
+      This is an survey
+    </p>
+    <form id="survey-form">
+      <div>
+        <lable id="name-label"> Email </lable>
+        <input
+          id="name"
+          type="text"
+          name="name"
+          placeholder="Enter your name"
+          required
+        />
+      </div>
+      <div>
+        <lable id="email-label"> Email </lable>
+        <input
+          id="email"
+          type="text"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+      </div>
+      <div>
+        <lable id="number-label"> Number </lable>
+        <input
+          id="number"
+          type="text"
+          name="number"
+          placeholder="Age"
+          required
+          min="1"
+          max="130"
+        />
+      </div>
+    </form>
+  </body>
 </html>
