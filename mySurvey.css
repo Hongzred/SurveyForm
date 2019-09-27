@@ -11,7 +11,7 @@ body {
 }
 
 .input-field {
-    height: 20px;
+    height: 30px;
     width: 280px;
     padding: 5px;
     margin: 10px;
@@ -37,4 +37,12 @@ body {
     margin-top: 15px;
     border: 1px solid #c0c0c0;
     border-radius: 2px;
+    font-size: 16px;
+  }
+  .radio, .checkbox {
+    position: relative;
+    left: -43px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
   }
